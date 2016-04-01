@@ -7,7 +7,7 @@
 import sys,os,time,subprocess,random
 
 file_name = 'bug.md'
-file_path = '/home/gitfile/gogit/'
+file_path = '/opt/jobs/gogit/'
 
 def check_file():
 	if not os.path.exists(file_path + file_name):
